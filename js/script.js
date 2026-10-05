@@ -1,9 +1,3 @@
-var animationSpeed = 300;
-
-function formatPrice(price) {
-    return price.toLocaleString("cs-CZ") + " Kč";
-}
-
 document.addEventListener("DOMContentLoaded", function () {
     var offerButtons = document.querySelectorAll(".offer-btn");
 
@@ -12,11 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             var offer = document.getElementById(button.dataset.target);
             var isOpen = offer.classList.toggle("open");
 
-            if (isOpen) {
-                button.textContent = "Skrýt nabídku";
-            } else {
-                button.textContent = "Zobrazit nabídku";
-            }
+            button.textContent = isOpen ? "Skrýt nabídku" : "Zobrazit nabídku";
         });
     });
 
