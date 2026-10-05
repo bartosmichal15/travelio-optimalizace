@@ -1,7 +1,7 @@
 # Optimalizace webu Travelio
 
-Repozitář: https://github.com/bartosmichal15/staticky8 (web je ve složce `travelio/`)
-Web na GitHub Pages: https://bartosmichal15.github.io/staticky8/travelio/
+Repozitář: https://github.com/bartosmichal15/travelio-optimalizace
+Web na GitHub Pages: https://bartosmichal15.github.io/travelio-optimalizace/
 
 ## Měření původního webu
 
