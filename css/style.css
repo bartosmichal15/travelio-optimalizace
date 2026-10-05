@@ -139,6 +139,12 @@ a {
     padding: 50px 20px 10px;
 }
 
+.intro-text {
+    font-size: 18px;
+    color: #555555;
+    text-align: center;
+}
+
 /* Destinace */
 
 .destinations {
@@ -148,12 +154,9 @@ a {
 .section-title {
     font-size: 36px;
     font-weight: 700;
+    color: #000000;
     text-align: center;
     margin-bottom: 40px;
-}
-
-.destination-title {
-    color: #000000;
 }
 
 .cards {
@@ -240,12 +243,8 @@ a {
 }
 
 .about-title {
-    font-size: 36px;
+    text-align: left;
     margin-bottom: 20px;
-}
-
-.about-title {
-    color: #000000;
 }
 
 .about-text p {
@@ -284,13 +283,7 @@ a {
 }
 
 .contact-title {
-    font-size: 36px;
     margin-bottom: 30px;
-    text-align: center;
-}
-
-.contact-title {
-    color: #000000;
 }
 
 .contact-grid {
@@ -301,6 +294,11 @@ a {
 
 .contact-info p {
     margin-bottom: 12px;
+}
+
+.contact-info .opening-hours {
+    font-size: 14px;
+    color: #777777;
 }
 
 .contact-form {
